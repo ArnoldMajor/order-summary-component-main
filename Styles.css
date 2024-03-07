@@ -161,7 +161,7 @@ body {
     color: var(--clr-desaturated-blue);
 }
 
-@media (width: 450px) {
+@media (max-width: 450px) {
     body {
         background-image: url(https://github.com/ArnoldMajor/order-summary-component-main/blob/80fbd3391c481bf2df3b3d463a80feeb512478f3/images/pattern-background-mobile.svg?raw=true);
     }

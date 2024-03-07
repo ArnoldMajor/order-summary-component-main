@@ -152,3 +152,27 @@ body {
     background-color: var(--clr-bright-blue-hover);
     
 }
+
+.price-plan a:hover {
+    color: var(--clr-bright-blue-hover);
+}
+
+.cancel-container a:hover {
+    color: var(--clr-desaturated-blue);
+}
+
+@media (width: 450px) {
+    body {
+        background-image: url(https://github.com/ArnoldMajor/order-summary-component-main/blob/80fbd3391c481bf2df3b3d463a80feeb512478f3/images/pattern-background-mobile.svg?raw=true);
+    }
+
+    .container {
+        width: 350px;
+        height: 600px;
+    }
+
+    .card {
+        width: 100%;
+        height: 200px;
+    }
+}
